@@ -31,8 +31,8 @@ phases:
       - echo $DOCKER_CONTAINER_NAME
       - echo printing imagedefinitions.json
       - cat imagedefinitions.json
-
 artifacts:
   files:
     - imagedefinitions.json
     - target/Java-API-0.0.1-SNAPSHOT.jar
+    
